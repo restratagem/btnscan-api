@@ -40,7 +40,7 @@ https://btn.api.restratagem.com/
 
 To fetch the current supply of Bitnet, you can use the public API server with the `/supply` endpoint using `GET`.
 
-#### Browser
+### Browser
 
 Input:
 ```
@@ -52,7 +52,7 @@ Example of Expected Response:
 317141
 ```
 
-#### cURL
+### cURL
 
 Input:
 ```cmd
