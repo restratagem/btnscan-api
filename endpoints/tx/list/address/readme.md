@@ -1,4 +1,4 @@
-# /price/btn
+# /tx/list/:address
 
 Returns the latest transactions of an address. Limited to a maximum of 150 transactions.
 
@@ -14,6 +14,10 @@ Syntax:
 https://btn.api.restratagem.com/tx/list/:address
 ```
 *Replace `:address` with the wallet address you want to query.*
+
+🟢 Try Live:
+https://btn.api.restratagem.com/tx/list/0x811f227d4bf85b48b971057e9d913b11511a25ac
+
 
 ## Usage Example
 

@@ -1,6 +1,6 @@
-# /price/btn
+# /wallet/total
 
-Returns the current price for BTN based on aggregated data from various exchanges.
+Returns the total amount of registered wallets/accounts in the network.
 
 ## Endpoint
 
@@ -11,11 +11,11 @@ Returns the current price for BTN based on aggregated data from various exchange
 Syntax:
 
 ```
-https://btn.api.restratagem.com/price/btn
+https://btn.api.restratagem.com/wallet/total
 ```
 
 🟢 Try Live:
-https://btn.api.restratagem.com/price/btn
+https://btn.api.restratagem.com/wallet/total
 
 ## Usage Example
 
@@ -23,42 +23,42 @@ https://btn.api.restratagem.com/price/btn
 
 Input:
 ```
-https://btn.api.restratagem.com/price/btn
+https://btn.api.restratagem.com/wallet/total
 ```
 
 Expected Response:
 
 ```json
-0.590109
+1446
 ```
 
 ### cURL
 
 Input:
 ```
-curl https://btn.api.restratagem.com/price/btn
+curl https://btn.api.restratagem.com/wallet/total
 ```
 
 Expected Response:
 ```cmd
 StatusCode        : 200
 StatusDescription : OK
-Content           : 0.590109
+Content           : 1446
 RawContent        : HTTP/1.1 200 OK
                     access-control-allow-origin: *
                     ratelimit-limit: 30
-                    ratelimit-remaining: 15
-                    ratelimit-reset: 7
+                    ratelimit-remaining: 28
+                    ratelimit-reset: 8
                     connection: close
-                    Content-Length: 8
+                    Content-Length: 4
                     Content-Type: application/json; charset=utf-8
                     ...
 Forms             : {}
-Headers           : {[access-control-allow-origin, *], [ratelimit-limit, 30], [ratelimit-remaining, 15],
-                    [ratelimit-reset, 7]...}
+Headers           : {[access-control-allow-origin, *], [ratelimit-limit, 30], [ratelimit-remaining, 28],
+                    [ratelimit-reset, 8]...}
 Images            : {}
 InputFields       : {}
 Links             : {}
 ParsedHtml        : mshtml.HTMLDocumentClass
-RawContentLength  : 8
+RawContentLength  : 4
 ```

@@ -1,4 +1,4 @@
-# /price/btn
+# /supply/btn
 
 Returns the current approximate supply of BTN.
 
@@ -13,6 +13,9 @@ Syntax:
 ```
 https://btn.api.restratagem.com/supply/btn
 ```
+
+🟢 Try Live:
+https://btn.api.restratagem.com/supply/btn
 
 ## Usage Example
 

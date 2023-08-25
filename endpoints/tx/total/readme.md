@@ -1,4 +1,4 @@
-# /price/btn
+# /tx/total
 
 Returns the total amount of transactions processed by the network to date.
 
@@ -13,6 +13,9 @@ Syntax:
 ```
 https://btn.api.restratagem.com/tx/total
 ```
+
+🟢 Try Live:
+https://btn.api.restratagem.com/tx/total
 
 ## Usage Example
 
