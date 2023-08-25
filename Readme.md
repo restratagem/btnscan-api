@@ -19,22 +19,22 @@ https://btn.api.restratagem.com/
 ```
 /price
 ```
-[Open ›](/endpoints/price/btn/)
+[Open ›](/endpoints/price/btn/) Returns the current market price of BTN.
 
 ```
 /supply
 ```
-[Open ›](/endpoints/supply/btn/)
+[Open ›](/endpoints/supply/btn/) Returns the current approximate supply of BTN.
 
 ```
 /tx
 ```
-[Open ›](/endpoints/tx/)
+[Open ›](/endpoints/tx/) Transaction related responses.
 
 ```
 /wallet
 ```
-[Open ›](/endpoints/wallet/)
+[Open ›](/endpoints/wallet/) Wallet related responses.
 
 ## Usage Example
 

@@ -1,6 +1,6 @@
 # /price/btn
 
-Returns the current price for BTN based on aggregated data from various exchanges.
+Returns the current approximate supply of BTN.
 
 ## Endpoint
 
@@ -14,42 +14,42 @@ Returns the current price for BTN based on aggregated data from various exchange
 
 Input:
 ```
-https://btn.api.restratagem.com/price/btn
+https://btn.api.restratagem.com/supply/btn
 ```
 
 Expected Response:
 
 ```
-0.590109
+317236
 ```
 
 ### cURL
 
 Input:
 ```
-curl https://btn.api.restratagem.com/price/btn
+curl https://btn.api.restratagem.com/supply/btn
 ```
 
 Expected Response:
 ```
 StatusCode        : 200
 StatusDescription : OK
-Content           : 0.590109
+Content           : 317238
 RawContent        : HTTP/1.1 200 OK
                     access-control-allow-origin: *
-                    ratelimit-limit: 30
-                    ratelimit-remaining: 15
-                    ratelimit-reset: 7
+                    ratelimit-limit: 5
+                    ratelimit-remaining: 3
+                    ratelimit-reset: 33
                     connection: close
-                    Content-Length: 8
+                    Content-Length: 6
                     Content-Type: application/json; charset=utf-8
-                    ...
+                    D...
 Forms             : {}
-Headers           : {[access-control-allow-origin, *], [ratelimit-limit, 30], [ratelimit-remaining, 15],
-                    [ratelimit-reset, 7]...}
+Headers           : {[access-control-allow-origin, *], [ratelimit-limit, 5], [ratelimit-remaining, 3],
+                    [ratelimit-reset, 33]...}
 Images            : {}
 InputFields       : {}
 Links             : {}
 ParsedHtml        : mshtml.HTMLDocumentClass
-RawContentLength  : 8
+RawContentLength  : 6
 ```
