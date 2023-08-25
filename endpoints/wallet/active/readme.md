@@ -26,7 +26,7 @@ Input:
 https://btn.api.restratagem.com/wallet/active
 ```
 
-Expected Response (Shortened):
+Expected Response:
 
 ```json
 869
