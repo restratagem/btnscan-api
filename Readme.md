@@ -4,7 +4,7 @@ Use the BTNScan Public API endpoints to fetch live on-chain data from the Bitnet
 
 # API Wiki
 
-For easier navigation, we recommend you to use our **[Wiki-formatted version](/wiki)** of this library.
+For easier navigation, we recommend you to use our **[Wiki-formatted version](https://github.com/restratagem/btnscan-api/wiki)** of this library.
 
 ## Limits
 
