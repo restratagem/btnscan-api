@@ -6,7 +6,13 @@ Returns the current price for BTN based on aggregated data from various exchange
 
 **Method:** `GET`  
 **Response Type:** `application/json`  
-**Response Format:** Plain Text
+**Response Format:** Plain Text  
+
+Syntax:
+
+```
+https://btn.api.restratagem.com/price/btn
+```
 
 ## Usage Example
 
@@ -19,7 +25,7 @@ https://btn.api.restratagem.com/price/btn
 
 Expected Response:
 
-```
+```json
 0.590109
 ```
 
@@ -31,7 +37,7 @@ curl https://btn.api.restratagem.com/price/btn
 ```
 
 Expected Response:
-```
+```cmd
 StatusCode        : 200
 StatusDescription : OK
 Content           : 0.590109

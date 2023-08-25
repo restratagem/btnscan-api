@@ -6,7 +6,13 @@ Returns the current approximate supply of BTN.
 
 **Method:** `GET`  
 **Response Type:** `application/json`  
-**Response Format:** Plain Text
+**Response Format:** Plain Text  
+
+Syntax:
+
+```
+https://btn.api.restratagem.com/supply/btn
+```
 
 ## Usage Example
 
@@ -19,7 +25,7 @@ https://btn.api.restratagem.com/supply/btn
 
 Expected Response:
 
-```
+```json
 317236
 ```
 
@@ -31,7 +37,7 @@ curl https://btn.api.restratagem.com/supply/btn
 ```
 
 Expected Response:
-```
+```cmd
 StatusCode        : 200
 StatusDescription : OK
 Content           : 317238
